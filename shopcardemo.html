@@ -99,7 +99,7 @@ function showpage(idpage){
   function checkLoginState() {
   FB.getLoginStatus(function(response) {
     if(response.status == 'connected'){
-      window.location = "http://localhost/shopping_cart/shoppingcar.html";
+      window.location = "/shoppingcar";
     }
   });
 }
